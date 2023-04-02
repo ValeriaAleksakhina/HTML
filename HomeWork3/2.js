@@ -3,9 +3,9 @@
 // имя и вызвать функцию greeting, передав туда данное значение.
 
 const username = prompt("Введите имя: ");
-function greeting(username){
+function greeting(username) {
     return(`Привет, ${username}`);
 }
-alert (greeting(username));
+alert(greeting(username));
 
 

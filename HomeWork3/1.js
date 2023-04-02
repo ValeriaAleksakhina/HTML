@@ -8,6 +8,6 @@
 // Примечания: Пользователь всегда вводит корректное число.
 // Советую округлить значение после расчетов
 
-const temperature = parseFloat(prompt("Введите температуру в градусах Цельсия: "));
-const farengeit = Math.round(parseFloat(((9/5)*temperature)+32));
-alert (`Цельсий: ${temperature}, Фаренгейт: ${farengeit}`);
+const temperature = Number.parseFloat(prompt("Введите температуру в градусах Цельсия: "));
+const farengeit = Math.round(((9/5) * temperature) + 32);
+alert(`Цельсий: ${temperature}, Фаренгейт: ${farengeit}`);
